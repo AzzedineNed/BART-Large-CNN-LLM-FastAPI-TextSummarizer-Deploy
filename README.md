@@ -62,8 +62,8 @@ To run the project locally or in a production environment, follow these steps:
    docker-compose up --build
    ```
 3. **Acces the Application**:
-   The frontend will be available on http://localhost:8080.
-   The backend (API) will be running at http://localhost:8000.
+   - The frontend will be available on http://localhost:8080.
+   - The backend (API) will be running at http://localhost:8000.
 
 ## **Endpoints**
 **POST /summerize/**
@@ -75,9 +75,9 @@ This endpoint accepts a POST request with the following JSON payload:
   "max_length": "int"
 }
 ```
-**article**: The text to be summarized (required).
-**min_length**: The minimum length of the summary (default is 40).
-**max_length**: The maximum length of the summary (default is 150).
+- **article**: The text to be summarized (required).
+- **min_length**: The minimum length of the summary (default is 40).
+- **max_length**: The maximum length of the summary (default is 150).
 The response will contain the summarized text
 ```json
  {
@@ -90,9 +90,9 @@ This endpoint checks the health of the backend. It returns:
 {
   "status": "ready"
 }
+```
 
-
-Let me know if this works!
+**Let me know if this works!**
 
 
    
