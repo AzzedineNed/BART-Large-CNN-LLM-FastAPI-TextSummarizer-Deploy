@@ -5,7 +5,7 @@ This project provides a **Text Summarization API** using the **BART model** (fro
 <p align="center">
   <img src="https://github.com/AzzedineNed/BART-Large-CNN-LLM-FastAPI-TextSummarizer-Deploy/blob/master/screenshots/UI1.PNG" alt="Screenshot 1" width="500">
 </p>
-<p align="center"><em>Screenshot of the Text Summarizer Interface (before the backend is service is fully started)</em></p>
+<p align="center"><em>Screenshot of the Text Summarizer Interface (before the backend service is fully started)</em></p>
 
 <p align="center">
   <img src="https://github.com/AzzedineNed/BART-Large-CNN-LLM-FastAPI-TextSummarizer-Deploy/blob/master/screenshots/UI2.PNG" alt="Screenshot 2" width="500">
