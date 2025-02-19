@@ -105,9 +105,6 @@ This project demonstrates the deployment of a text summarization service using t
 
 Feel free to explore, modify, and contribute to improve its functionality! 
 
-**Let me know if this works!**
-
-
    
 
    
