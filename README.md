@@ -67,7 +67,7 @@ To run the project locally or in a production environment, follow these steps:
 
 ## **Endpoints**
 **POST /summerize/**
-This endpoint accepts a POST request with the following JSON payload:
+- This endpoint accepts a POST request with the following JSON payload:
 ```json
 {
   "article": "string",
@@ -79,14 +79,14 @@ This endpoint accepts a POST request with the following JSON payload:
 - **min_length**: The minimum length of the summary (default is 40).
 - **max_length**: The maximum length of the summary (default is 150).
 
-The response will contain the summarized text
+- The response will contain the summarized text
 ```json
  {
   "summary": "string"
 }
 ```
 **GET /health**
-This endpoint checks the health of the backend. It returns:
+- This endpoint checks the health of the backend. It returns:
 ```json
 {
   "status": "ready"
