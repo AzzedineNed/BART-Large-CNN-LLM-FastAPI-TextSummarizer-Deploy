@@ -72,7 +72,9 @@ To run the project locally or in a production environment, follow these steps:
 
 ## **Endpoints**
 **POST /summerize/**
-- This endpoint accepts a POST request with the following JSON payload:
+
+This endpoint accepts a POST request with the following JSON payload:
+
 ```json
 {
   "article": "string",
@@ -91,7 +93,9 @@ To run the project locally or in a production environment, follow these steps:
 }
 ```
 **GET /health**
-- This endpoint checks the health of the backend. It returns:
+
+This endpoint checks the health of the backend. It returns:
+
 ```json
 {
   "status": "ready"
