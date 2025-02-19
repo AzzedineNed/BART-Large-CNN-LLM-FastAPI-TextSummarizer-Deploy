@@ -92,9 +92,9 @@ To run the project locally or in a production environment, follow these steps:
   "status": "ready"
 }
 ```
-*This project demonstrates the deployment of a text summarization service using the BART model, FastAPI, and Docker. With a simple frontend for user interaction and GPU acceleration for efficient processing, it provides a scalable solution for text summarization.  
+This project demonstrates the deployment of a text summarization service using the BART model, FastAPI, and Docker. With a simple frontend for user interaction and GPU acceleration for efficient processing, it provides a scalable solution for text summarization.  
 
-Feel free to explore, modify, and contribute to improve its functionality! 🚀*
+Feel free to explore, modify, and contribute to improve its functionality! 
 
 **Let me know if this works!**
 
