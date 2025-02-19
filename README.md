@@ -43,12 +43,60 @@ The diagram below illustrates the architecture of the Text Summarizer:
 - **GPU Support**: Utilizes GPU for model inference, ensuring fast performance.
 - **Uvicorn for Efficient API Handling**: Uvicorn is used to serve the FastAPI application, ensuring efficient handling of API requests.
 
-## **Getting Started**
-
-To get the project up and running locally, follow the steps below:
-
 ### **Prerequisites**
 - **Docker**: Make sure Docker is installed on your machine. You can download it from [Docker's official website](https://www.docker.com/products/docker-desktop).
 - **NVIDIA GPU**: Ensure you have NVIDIA GPU drivers installed and **NVIDIA Docker** runtime configured for optimal performance.
+
+## **Installation**
+
+To run the project locally or in a production environment, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/AzzedineNed/BART-Large-CNN-LLM-FastAPI-TextSummarizer-Deploy.git
+   cd BART-Large-CNN-LLM-FastAPI-TextSummarizer-Deploy
+   ```
+2. **Build the Docker containers**:
+   Use Docker Compose to build and start both the frontend and backend services.
+   ```bash
+   docker-compose up --build
+   ```
+3. **Acces the Application**:
+   The frontend will be available on http://localhost:8080.
+   The backend (API) will be running at http://localhost:8000.
+
+## **Endpoints**
+**POST /summerize/**
+This endpoint accepts a POST request with the following JSON payload:
+```json
+{
+  "article": "string",
+  "min_length": "int",
+  "max_length": "int"
+}
+```
+**article**: The text to be summarized (required).
+**min_length**: The minimum length of the summary (default is 40).
+**max_length**: The maximum length of the summary (default is 150).
+The response will contain the summarized text
+```json
+ {
+  "summary": "string"
+}
+```
+**GET /health**
+This endpoint checks the health of the backend. It returns:
+```json
+{
+  "status": "ready"
+}
+
+
+Let me know if this works!
+
+
+   
+
+   
 
 
