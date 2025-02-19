@@ -50,7 +50,7 @@ The diagram below illustrates the architecture of the Text Summarizer:
 
 ### **Prerequisites**
 - **Docker**: Make sure Docker is installed on your machine.
-- **NVIDIA GPU**: Ensure you have NVIDIA GPU drivers installed and **NVIDIA Docker** runtime configured for optimal performance.
+- **NVIDIA GPU**: Ensure you have NVIDIA GPU drivers installed, **CUDA Toolkit** and **NVIDIA Docker** runtime configured for optimal performance.
 
 ## **Installation**
 
