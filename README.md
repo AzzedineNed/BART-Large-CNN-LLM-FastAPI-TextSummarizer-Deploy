@@ -78,6 +78,7 @@ This endpoint accepts a POST request with the following JSON payload:
 - **article**: The text to be summarized (required).
 - **min_length**: The minimum length of the summary (default is 40).
 - **max_length**: The maximum length of the summary (default is 150).
+
 The response will contain the summarized text
 ```json
  {
