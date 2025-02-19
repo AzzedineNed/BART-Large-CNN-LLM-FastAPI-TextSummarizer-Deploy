@@ -2,11 +2,16 @@
 
 This project provides a **Text Summarization API** using the **BART model** (from Hugging Face's Transformers library), deployed using **FastAPI** and **Docker**. It allows users to input text and receive a summarized version of that text. The application also provides a simple frontend built with HTML and JavaScript to interact with the backend API.
 
-![UI Screenshot 1](https://github.com/AzzedineNed/BART-Large-CNN-LLM-FastAPI-TextSummarizer-Deploy/blob/master/screenshots/UI1.PNG)  
-*Screenshot of the Text Summarizer Interface (Example 1)*
+<p align="center">
+  <img src="https://github.com/AzzedineNed/BART-Large-CNN-LLM-FastAPI-TextSummarizer-Deploy/blob/master/screenshots/UI1.PNG" alt="Screenshot 1" width="500">
+</p>
+<p align="center"><em>Screenshot of the Text Summarizer Interface (Example 1)</em></p>
 
-![UI Screenshot 2](https://github.com/AzzedineNed/BART-Large-CNN-LLM-FastAPI-TextSummarizer-Deploy/blob/master/screenshots/UI2.PNG)  
-*Screenshot of the Text Summarizer Interface (Example 2)*
+<p align="center">
+  <img src="https://github.com/AzzedineNed/BART-Large-CNN-LLM-FastAPI-TextSummarizer-Deploy/blob/master/screenshots/UI2.PNG" alt="Screenshot 2" width="500">
+</p>
+<p align="center"><em>Screenshot of the Text Summarizer Interface (Example 2)</em></p>
+
 
 ## **Project Structure**
 
@@ -44,7 +49,7 @@ The diagram below illustrates the architecture of the Text Summarizer:
 - **Uvicorn for Efficient API Handling**: Uvicorn is used to serve the FastAPI application, ensuring efficient handling of API requests.
 
 ### **Prerequisites**
-- **Docker**: Make sure Docker is installed on your machine. You can download it from [Docker's official website](https://www.docker.com/products/docker-desktop).
+- **Docker**: Make sure Docker is installed on your machine.
 - **NVIDIA GPU**: Ensure you have NVIDIA GPU drivers installed and **NVIDIA Docker** runtime configured for optimal performance.
 
 ## **Installation**
